@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Prevent caching -->
+    <!-- Ref : http://cristian.sulea.net/blog/disable-browser-caching-with-meta-html-tags/ -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Import p5.js library -->
+    <script src="./libraries/p5.js"></script>
+    <!-- Import math.js library -->
+    <script src="./libraries/math.js"></script>
+    <!-- Import grafica.js library -->
+    <script src="./libraries/grafica.js"></script>
+
+    <title>Projectile Simulation</title>
+    <script src="./js/topSketch.js"></script>
+    <script src="./js/bottomSketch.js"></script>
+    <script src="./js/ground.js"></script>
+    <script src="./js/projectile.js"></script>
+    <script src="./js/arrow.js"></script>
+    <script src="./js/gui.js"></script>
+    <script src="./js/conversion.js"></script>
+    <script src="./js/plot.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body class="p5canvas">
+    <div id="topSketch"></div>
+    <div id="bottomSketch"></div>
+  </body>
+</html>
